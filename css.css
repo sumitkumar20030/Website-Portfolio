@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.nav{
+    box-sizing: border-box;
+    width: auto;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+    height: 80px;
+    font-size: 22px;
+    padding: 10px;
+    background-color:#3489f8;
+}
+
+.nav .right-name{
+    float: left;
+}
+
+.nav ol li{
+    list-style-type: none;
+    padding: 20px;
+    float: right;
+}
+
+.nav ol li a{
+    text-decoration: none;
+    color: #09460e;
+    padding: 20px;
+}
+
+.nav li a:hover{
+    padding: 20px;
+}
+
+.img .p1,.img .p2 {
+    width: 500px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+  }
+  
+@keyframes example {
+    0%   {top:100px;}
+    100%  {top:150px;}
+    
+
+      /*
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+    */
+  }
+
+/*
+.do-1{
+    margin: 0%;
+    padding: 2%;
+    padding-top: 40px ;
+    box-sizing: border-box;
+    background-color: #bb33ff;
+    height: 600px;
+    text-align: center;
+}
+
+.do-1 .do-2{
+    background-color: #bb99ff;
+    color: black;
+    margin-left: 3%;
+    width: 320px;
+    padding: 25px 27px 60px;
+    float: left;
+    position: relative;
+    box-shadow: 0 15px 45px rgba(0, 0,0,0.2);
+    text-align: justify;
+    opacity: 1;
+    font-size: 20px;
+    height: 300px;
+    border-radius: 10px;
+}
+.do-1 .do-2 i{
+    font-size: 50px;
+    color: #3333ff;
+}
+
+.do-1 .do-2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #7e0aacd5;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.do-1 .do-2:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.do-1 .do-2:hover p,
+.do-1 .do-2:hover h3{
+    z-index: 1;
+
+}
+/*
+.do-1{
+    margin: 0%;
+    padding: 2%;
+    padding-top: 40px ;
+    box-sizing: border-box;
+    background-color: #bb33ff;
+    height: 600px;
+    text-align: center;
+}
+
+.do-2{
+    background-color: #bb99ff;
+    color: black;
+    margin-left: 3%;
+    width: 320px;
+    padding: 25px 27px 60px;
+    float: left;
+    box-shadow: 0 15px 45px rgba(0, 0,0,0.2);
+    text-align: justify;
+    opacity: 1;
+    font-size: 20px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.do-2 i{
+    font-size: 50px;
+    color: #3333ff;
+}
+
+.do-2:before{
+    content: '';
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #bb0dff;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 1s;
+    border-radius: 10px;
+}
+
+.do-2:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 1s;
+    border-radius: 10px;
+}
+
+.do-1 .do-2:hover p,
+.do-1 .do-2:hover h3{
+    z-index: 1;
+    opacity: 0.5;
+}
+*/
