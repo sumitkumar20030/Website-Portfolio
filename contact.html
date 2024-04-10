@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB | Contact</title>
+    <link rel="shortcut icon" href="img/img0.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ol>
+                <li class="right-name"><a href="index.html" id="ch"><strong style="color: red;">R</strong><strong
+                            style="color: green;">G</strong><strong style="color: blue;">B </strong>Web Design</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html" style="color:brown; font: bold;">Contact</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ol>
+        </div>
+
+        <!--Body part-->
+
+        <div class="img-contact">
+            <div class="img-contact-1">
+                <img src="img/smile2.jpg" alt="background" height="450px" width="450px">
+            </div>
+        </div>
+
+        <div class="con1"><br>
+            <h1>Contact</h1><br>
+            <div class="addw-4">
+
+                <p>Feel free to talk to our online representative at any time
+                    you please using our Live Chat system on our website or one of
+                    the below instant messaging programs.
+                </p>
+
+                <p>Please be patient while waiting for response.
+                    (24/7 Support!) Phone General Inquiries: +91 7292039626
+                </p>
+
+                <div class="form">
+                    <!--<form onsubmit="sendEmail(); reset(); return false;">  -->
+                        <form action="https://formsubmit.co/sumitkumarsa9212@gmail.com" method="post">    
+                        Name*<br>
+                        <input type="text" id="name" name="Name" placeholder=" Full Name"><br>
+                        Email*<br>
+                        <input type="email" name="Email" id="email" placeholder="example@gmail.com"><br>
+                        Phone No*<br>
+                        <input type="tel"  name="subject" id="Phone" placeholder="+91 97119XXXXX"><br>
+                        Message*<br>
+                        <textarea name="Message" id="" cols="66" rows="5" placeholder="Enter Message">How can you help You?</textarea><br><br><br>
+                        <button type="submit" id="col">Sand Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+                function sendEmail() {
+                    Email.send({
+                        SecureToken: "57ccab66-9585-4d31-92ef-da993a5452fe",
+                        To: "sumitkushwah20030@gmail.com",
+                        From: document.getElementById("email").value,
+                        Subject: "New Contact Form Enquiry",
+                        Body: "And this is the body"
+                    }).then(
+                        message => alert(message)
+                    );
+                }
+            </script>
+
+
+
+            <div class="addw-5">
+                <h3>My Address</h3>
+                <h6>Company Name</h6>
+                <p>Delhi, INDIA <br>
+                    Phone : <a href="tel:+7292039626" style="text-decoration: none;">+91 7292039626</a> <br>
+                    E-mail: <a href="mailto: sumitkumarsa9212@gmail.com"
+                        style="text-decoration: none;">sumitkumarsa9212@gmail.com</a> <br>
+                    Website:<a href="http://www.sgktechnosoft.com/" style="text-decoration: none;">
+                        www.sgktechnosoft.com</a>
+                </p>
+                <div style="width: 100%">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d112036.38433313256!2d77.152256!3d28.655616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1642958291229!5m2!1sen!2sin"
+                        width="450" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <strong style="color: red;">R</strong><strong style="color: green;">G</strong><strong style="color: blue;">B
+            </strong><a href="#ch" style="text-decoration: none; color:white;">Web Design</a>
+
+            <br>
+            <br>
+            <div class="footer-nav">
+                <ol>
+
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="contact.html" style="color:brown; font: bold;">CONTACT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                </ol>
+            </div>
+
+
+            <br><br><br>
+            <div class="icon-so">
+                <a href="https://www.facebook.com/profile.php?id=100030308466208"><i class="bi bi-facebook"></i></a>
+                <a href="https://wa.me/7292039626"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://instagram.com/sumitkumar20030?utm_medium=copy_link"><i class="bi bi-instagram"></i></a>
+                <a href="https://t.me/sumitkumar20030"><i class="bi bi-telegram"></i></a>
+            </div>
+            <br><br><br>
+            <div class="copyright">
+                <p>&copy; Copyright 2022 All Rights Reserved</p>
+            </div>
+            <!--
+            <div class="addr">
+                <p><i class="bi bi-house-fill"></i></p>
+            </div>-->
+        </div>
+        <p style="margin-bottom: 2px; text-align: center; font-size: 12px;" alt="Send your Feedback">Powerd By <a
+                href="mailto: sumitkumarsa9212@gmail.com" style="color: white; text-decoration: none;">Sumit Kumar</a>
+        </p>
+    </div>
+</body>
+</html>
